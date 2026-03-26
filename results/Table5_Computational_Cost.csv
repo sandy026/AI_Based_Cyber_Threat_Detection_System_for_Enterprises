@@ -1,0 +1,6 @@
+Model,Train Time CICIDS (s),Train Time UNSW (s),Inference CICIDS (ms),Inference UNSW (ms)
+Random Forest,10.6,10.3,0.0119,0.0149
+SVM,92.8,113.5,0.7185,0.573
+LSTM,40.0,35.7,0.1563,0.1892
+"CNN-LSTM
+(Proposed)",54.4,42.3,0.1593,0.1423

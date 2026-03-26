@@ -1,0 +1,106 @@
+=================================================================
+  RESULTS LOG — AI-Based Cyber Threat Detection System
+  Use these numbers to fill your paper sections
+=================================================================
+
+
+──────────────────────────────────────────────────
+  Dataset: CICIDS2017
+──────────────────────────────────────────────────
+
+  Model : Random Forest
+    Accuracy  : 99.66%
+    Precision : 99.7%
+    Recall    : 99.62%
+    F1-Score  : 99.66%
+    AUC-ROC   : 99.96%
+    FPR       : 0.3%
+    Inf Time  : 0.0119 ms/sample
+    Train Time: 10.6s
+
+  Model : SVM
+    Accuracy  : 93.51%
+    Precision : 90.95%
+    Recall    : 96.64%
+    F1-Score  : 93.71%
+    AUC-ROC   : 98.25%
+    FPR       : 9.62%
+    Inf Time  : 0.7185 ms/sample
+    Train Time: 92.8s
+
+  Model : LSTM
+    Accuracy  : 63.55%
+    Precision : 89.78%
+    Recall    : 30.58%
+    F1-Score  : 45.62%
+    AUC-ROC   : 61.36%
+    FPR       : 3.48%
+    Inf Time  : 0.1563 ms/sample
+    Train Time: 40.0s
+
+  Model : CNN-LSTM (Proposed)
+    Accuracy  : 97.3%
+    Precision : 96.16%
+    Recall    : 98.54%
+    F1-Score  : 97.33%
+    AUC-ROC   : 99.61%
+    FPR       : 3.94%
+    Inf Time  : 0.1593 ms/sample
+    Train Time: 54.4s
+
+──────────────────────────────────────────────────
+  Dataset: UNSW-NB15
+──────────────────────────────────────────────────
+
+  Model : Random Forest
+    Accuracy  : 94.25%
+    Precision : 95.8%
+    Recall    : 92.56%
+    F1-Score  : 94.15%
+    AUC-ROC   : 99.02%
+    FPR       : 4.06%
+    Inf Time  : 0.0149 ms/sample
+    Train Time: 10.3s
+
+  Model : SVM
+    Accuracy  : 91.42%
+    Precision : 90.31%
+    Recall    : 92.8%
+    F1-Score  : 91.54%
+    AUC-ROC   : 97.47%
+    FPR       : 9.96%
+    Inf Time  : 0.573 ms/sample
+    Train Time: 113.5s
+
+  Model : LSTM
+    Accuracy  : 87.66%
+    Precision : 88.49%
+    Recall    : 86.58%
+    F1-Score  : 87.53%
+    AUC-ROC   : 96.25%
+    FPR       : 11.26%
+    Inf Time  : 0.1892 ms/sample
+    Train Time: 35.7s
+
+  Model : CNN-LSTM (Proposed)
+    Accuracy  : 93.0%
+    Precision : 93.54%
+    Recall    : 92.38%
+    F1-Score  : 92.96%
+    AUC-ROC   : 98.51%
+    FPR       : 6.38%
+    Inf Time  : 0.1423 ms/sample
+    Train Time: 42.3s
+
+
+=================================================================
+  OUTPUT FILES
+=================================================================
+  Table 3 → Table3_Model_Performance_Comparison.csv
+  Table 4 → Table4_PerClass_Detection_CICIDS2017.csv
+            Table4_PerClass_Detection_UNSW-NB15.csv
+  Table 5 → Table5_Computational_Cost.csv
+  Figure 1 → Figure1_ROC_Curves.png
+  Figure 2 → Figure2_Confusion_Matrices.png
+  Figure 3 → Figure3_Training_Curves.png
+  Figure 4 → Figure4_F1_Comparison.png
